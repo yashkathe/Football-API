@@ -6,7 +6,8 @@
   "scripts": {
     "test-init":"ts-jest config:init",
     "test": "jest",
-    "start": "nodemon dist/server.js"
+    "start": "nodemon dist/server.js",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
